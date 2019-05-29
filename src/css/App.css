@@ -1,0 +1,16 @@
+
+@media(min-width:767px) {
+    .carousel-item {
+        height: 25em;
+    }
+}
+
+.foot{
+    text-align: center;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+
