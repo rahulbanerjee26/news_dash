@@ -34,43 +34,43 @@ class App extends React.Component {
 
         var all = 'https://newsapi.org/v2/top-headlines?' +
             'sources=bbc-news' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var top = 'https://newsapi.org/v2/everything?' +
             'domains=wsj.com,nytimes.com' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var all_health = 'https://newsapi.org/v2/everything?' +
             'q=' + 'health' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var top_health = 'https://newsapi.org/v2/top-headlines?' +
             'category=health&country=us' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var all_sports = 'https://newsapi.org/v2/everything?' +
             'q=' + 'sports' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var top_sports = 'https://newsapi.org/v2/top-headlines?' +
             'category=sports&country=us' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var all_tech = 'https://newsapi.org/v2/everything?' +
             'q=' + 'tech' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var top_tech = 'https://newsapi.org/v2/top-headlines?' +
             'category=technology&country=us' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var all_business = 'https://newsapi.org/v2/everything?' +
             'q=' + 'business' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var top_business = 'https://newsapi.org/v2/top-headlines?' +
             'category=business&country=us' +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         let Items = [];
         let headlines = [];
@@ -272,7 +272,7 @@ class App extends React.Component {
     searchForResults(text) {
         var url = 'https://newsapi.org/v2/everything?' +
             'q=' + text +
-            '&apiKey=9d18586084cd48eba05dd685f1d2dbd7';
+            '&apiKey=91f238e93f4d478a821f3e5de56a2b02';
 
         var results = [];
 
